@@ -1,0 +1,315 @@
+.ant-table {
+  overflow: visible;
+}
+.ant-table table {
+  overflow: visible;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.ant-table-tbody > tr.ant-table-row-hover > td,
+.ant-table-tbody > tr:hover > td,
+.ant-table-thead > tr.ant-table-row-hover > td,
+.ant-table-thead > tr:hover > td {
+  background: transparent;
+}
+a.cur {
+  background: #ff0055;
+  text-decoration: none;
+  color: white !important;
+}
+td.td_h {
+  background-color: #f1efef !important;
+}
+.tab_ctrl_box a:hover {
+  color: #ee5d31;
+}
+.tab_ctrl_box a {
+  padding: 0 10px;
+  color: black;
+  text-decoration-line: none;
+  font-size: 12px;
+}
+.tab_ctrl_box .ant-tabs-nav .ant-tabs-tab {
+  margin: 0;
+  padding: 10px 17px;
+}
+.a_list_ctrl a:hover {
+  color: #ee5d31;
+}
+.a_list_ctrl a {
+  padding: 0 10px;
+  color: black;
+  text-decoration-line: none;
+  font-size: 14px;
+}
+.range_ctrl_box a:hover {
+  color: #ee5d31;
+}
+.range_ctrl_box a {
+  float: left;
+  padding: 0 10px;
+  color: black;
+  text-decoration-line: none;
+  font-size: 16px;
+}
+.range_ctrl_box .slider {
+  width: 300px;
+  float: left;
+  line-height: 30px;
+}
+.range_ctrl_box .c2 {
+  padding-left: 20px;
+}
+.select_ctrl {
+  float: left;
+  position: relative;
+  margin-right: 50px;
+}
+.select_ctrl .ht {
+  padding: 0 40px 0 10px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  position: relative;
+  padding-left: 2px;
+  box-sizing: border-box;
+}
+.select_ctrl .ht::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #747171;
+  border-top: 1px solid #747171;
+  right: 7px;
+  top: 8px;
+  transform: rotate(135deg);
+  cursor: pointer;
+}
+.select_ctrl .ht.open::before {
+  transform: rotate(-45deg);
+  top: 12px;
+}
+.select_ctrl .bd {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: 200px;
+  border: 1px solid #eee;
+  background: white;
+  overflow: hidden;
+  z-index: 9999;
+  box-sizing: border-box;
+}
+.select_ctrl .bd ul {
+  float: left;
+  padding-top: 10px;
+  width: 98px;
+  list-style: none;
+}
+.select_ctrl .bd ul li {
+  height: 40px;
+}
+.select_ctrl .bd ul li a:hover {
+  color: #ee5d31;
+}
+.select_ctrl .bd ul li a {
+  font-size: 14px;
+  color: black;
+  padding: 0 8px;
+  text-indent: 8px;
+  margin: 0!important;
+}
+.Tags_ctrl .ant-tag {
+  line-height: 25px;
+  height: 27px;
+  font-size: 13px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.cl {
+  clear: both;
+}
+.albumWraper {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+.albumWraper .rightPart {
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
+  width: 296px;
+  height: 100%;
+  background: #333;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+.albumWraper .rightPart h1 {
+  font-size: 30px;
+  color: white;
+  padding: 10px 0;
+}
+.albumWraper .rightPart h3 {
+  color: white;
+  font-size: 16px;
+  padding: 0 0 30px;
+}
+.albumWraper .rightPart .picker .album {
+  list-style: none;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.albumWraper .rightPart .picker .album li {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 14px;
+  margin-right: 3%;
+}
+.albumWraper .rightPart .picker .album li.cur {
+  background: #bebdba;
+  color: #333;
+}
+.albumWraper .rightPart .picker .color {
+  list-style: none;
+}
+.albumWraper .rightPart .picker .color li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  margin-right: 6px;
+}
+.albumWraper .rightPart .picker .color li.cur {
+  border: 2px solid red;
+  margin-top: -2px;
+}
+.albumWraper .picNav {
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 10px 4px;
+}
+.albumWraper .picNav .unit {
+  width: 8000px;
+  position: relative;
+  left: 0;
+}
+.albumWraper .picNav .unit ul {
+  list-style: none;
+  float: left;
+  width: 280px;
+  margin-right: 10px;
+}
+.albumWraper .picNav .unit ul li {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 6px;
+  position: relative;
+}
+.albumWraper .picNav .unit ul li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease 0s;
+}
+.albumWraper .picNav .unit ul li.cur::before {
+  opacity: 0;
+}
+.albumWraper .picNav .unit ul li:nth-child(2n) {
+  margin-right: 0px;
+}
+.albumWraper .picNav .unit ul li img {
+  width: 100%;
+}
+.albumWraper .picNav ol {
+  list-style: none;
+  padding-top: 4px;
+  overflow: hidden;
+}
+.albumWraper .picNav ol li {
+  float: left;
+  height: 14px;
+  cursor: pointer;
+  background: skyblue;
+  border-right: 4px solid #333;
+  box-sizing: border-box;
+}
+.albumWraper .picNav ol li.cur {
+  background: orange;
+}
+.albumWraper .picNav ol li:last-child {
+  border-right: none;
+}
+.albumWraper .bigimgwrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  padding-right: 296px;
+  box-sizing: border-box;
+}
+.albumWraper .bigimgwrap .inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("/images/loading.gif") no-repeat center center;
+}
+.albumWraper .bigimgwrap .inner .bigimg {
+  max-height: 90%;
+  max-width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.albumWraper .bigimgwrap .inner .rightBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  cursor: url(/images/picture-cursor-right.cur), auto;
+}
+.albumWraper .bigimgwrap .inner .leftBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  cursor: url(/images/picture-cursor-left.cur), auto;
+}
+.xuanfu .inner {
+  position: fixed;
+  width: 80%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+}
+.xuanfu .cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}

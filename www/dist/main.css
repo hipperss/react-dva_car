@@ -1,0 +1,148 @@
+
+
+.ant-table{
+    overflow: visible;
+}
+.ant-table table{
+    overflow: visible;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+tr.ant-table-row:hover{
+    background:transparent !important;
+}
+
+a.cur{
+        background:rgb(102, 255, 0);
+        text-decoration: none;
+        color:white !important;
+}
+
+.tab_ctrl_box{
+   
+   
+    a{
+        padding: 0 10px;
+        color:black;
+        text-decoration-line: none;
+        font-size:12px;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab {
+        margin: 0;
+        padding: 10px 17px;
+    }
+}
+
+.a_list_ctrl {
+    
+    
+    a{
+        padding:0 10px;
+        color:black;
+        text-decoration-line: none;
+        font-size:14px;
+    }
+    
+}
+
+.range_ctrl_box {
+
+    
+    
+    a{
+        float: left;
+        padding:0 10px;
+        color:black;
+        text-decoration-line: none;
+        font-size:16px;
+    } 
+
+    .slider{
+        width:300px;
+        float: left;
+        line-height: 30px;
+    }
+    .c2{
+        padding-left:20px;
+    }
+       
+    
+} 
+.select_ctrl{
+    float: left;
+    position: relative;
+    margin-right: 50px;
+    .ht{
+        padding:0 40px 0 10px;
+        line-height: 30px;
+        height:30px;
+        border: 1px solid #ddd;
+        position: relative;
+        padding-left:2px;
+        box-sizing:border-box;
+        
+
+
+        &::before{
+            content : "";
+            position:absolute;
+            width:8px;
+            height:8px;
+            border-right:1px solid #747171;
+            border-top:1px solid #747171;
+            right : 7px;
+            top : 8px;
+            transform:rotate(135deg);
+            cursor: pointer;
+        }
+        &.open::before{
+            transform:rotate(-45deg);
+            top:12px;
+        }
+        
+    }
+    .bd{
+        position: absolute;
+        top:30px;
+        left:0;
+        height:200px;
+        border:1px solid #eee;
+        background:white;
+        overflow: hidden;
+        z-index:9999;
+        box-sizing: border-box;
+
+        ul{
+            float: left;
+            padding-top:10px;
+            width:98px;
+            list-style:none;
+            li {
+                height:40px;
+
+                a{
+                    font-size:14px;
+                    color:black;
+                    padding: 0 8px;
+                    text-indent: 8px;
+                    margin: 0!important;
+                    
+                }
+            }
+            
+        }
+    }
+    
+}
+
+.Tags_ctrl {
+    .ant-tag{
+        line-height: 25px;
+        height: 27px;
+        font-size:13px;
+    }
+}
+
